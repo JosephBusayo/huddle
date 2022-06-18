@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	font-size: 18px;
+	max-width: 1440px;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header{
+	padding: 1rem;
+	background: hsl(208, 11%, 55%);
+	padding-bottom: 2rem;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5rem;
+	margin-bottom: 3rem;
+}
+
+.logo{
+	width: 15%;
+}
+
+.btn{
+	border-radius: 30px;
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	border: none;
+	padding: 1rem 4rem;
+}
+
+.ill{
+	width: 100%;
+}
+
+.hero-section{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 3rem;
+
+
+}
+
+
+.hero-text{
+	width: 40%;
+	margin-top: 6rem;
+	text-align: justify-all;
+	font-size: 25px;
+}
+
+.build{
+	font-size: 15px;
+}
+
+.hero-image{
+	width: 55%;
+	overflow: hidden;
+	
+}
+
+.btn-hero{
+	border-radius: 30px;
+	background: hsl(322, 100%, 66%);
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	padding: 1rem 4rem;
+}
+
+p{
+	font-weight: 400;
+}
+
+main{
+	
+	padding: 4rem 3rem;
+	background: #fff;
+}
+
+.illustration{
+	border: 3px solid #fff;
+	box-shadow: 3px 3px 3px 3px #ccc;
+	border-radius: 25px;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem 0.5rem;
+
+}
+
+.illustration-text{
+	width: 45%;
+	margin: auto 2rem;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.illustration-svg{
+	width: 40%;
+	overflow: hidden;
+
+
+}
+
+.illustration-svg img{
+	width: 100%;
+}
+
+
+@media (max-width: 375px){
+	nav{
+		padding: 1rem 0.75rem;
+		margin-bottom: 0;
+	}
+
+	header{
+		font-size: 18px;
+	}
+
+	.logo{
+		width: 30%;
+		object-fit: contain;
+	}
+
+	.btn{
+		padding: 0.3rem 2rem;
+	}
+
+	.hero-section{
+		flex-direction: column;
+		margin-top: 0;
+		text-align: center;
+
+	}
+	.hero-text{
+		width: 100%;
+		font-size: 20px;
+	}
+
+	.build{
+		font-size: 15px;
+	}
+
+	.btn-hero{
+		margin-top: 0.5rem;
+	}
+
+	.hero-image{
+		width: 100%;
+		margin-top: 3rem;
+	}
+
+
+.illustration{
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+
+
+
+
+}
+
+.illustration-text{
+	width: 100%;
+	text-align: center;
+	order: 2;
+	margin: auto;
+	
+}
+
+.illustration-svg{
+	width: 100%;
+	overflow: hidden;
+	order: 1;
+	margin-bottom: 2rem;
+	
+
+
+}
+
+
+
+}
+		
